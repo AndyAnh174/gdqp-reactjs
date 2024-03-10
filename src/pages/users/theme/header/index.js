@@ -15,7 +15,8 @@ const Header = () => {
         alert(`Đã sao chép: ${email}`);
     };
 
-    return (
+    return ( 
+    <>
         <div className="header-top">
             <div className="container">
                 <div className="row">
@@ -50,6 +51,13 @@ const Header = () => {
                 </div>
             </div>
         </div>
+        <div className="row">
+            <div className="col-lg-3">
+            LOGO
+            </div>
+        </div>
+
+    </>
     );
 };
 

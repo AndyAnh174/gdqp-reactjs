@@ -30,12 +30,6 @@ const Header = () => {
                         path: "",
                     
                 },
-                {
-                    
-                        name: "III.",
-                        path: "",
-                    
-                },
             ],
             
         },
@@ -107,7 +101,24 @@ const Header = () => {
                             <li key={menuKey} className={menuKey === 0 ? "active" : ""}>
                                 
                                 <Link to={menu?.path}>{menu?.name}</Link>
-                                
+                                {
+                                    menu.child && ( 
+                                    <ul>
+                                        <li className="header-menu-drogdown">
+                                            {
+                                                menu.child.map((childItem, childKey) =>(
+                                                    <li key={`${menuKey}-${childKey}`}>
+                                                        <Link to={childItem.path}>{childItem.name}</Link>
+                                                    </li>
+                                                ))
+                                            }
+                                            <Link>
+                                            </Link>
+                                        </li>
+                                    </ul>
+                                        
+                                    )
+                                }
                             </li>
                             ))}
                     </ul>

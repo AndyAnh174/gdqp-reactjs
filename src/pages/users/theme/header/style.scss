@@ -34,6 +34,42 @@
     }
 }
 
+.header-logo {
+    padding: 15px 0;
+}
+
+.header-menu {
+    padding: 24px 0;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+
+        li {
+            list-style: none;
+             
+            a {
+                text-decoration: none;
+                font-size: 14px;
+                color: map.get($theme-colors, "bold-text");
+                text-transform: uppercase;
+                font-weight: bold;
+                letter-spacing: 2px;
+                transition: all 0.3s;
+                padding: 5px 0;
+                display:block;
+            }
+        }
+
+        .active a{
+            color: map.get($theme-colors, "main");
+       
+        }
+    }
+
+}
+
+
 .header-top-left{
 
     ul{
@@ -45,3 +81,4 @@
     }
 
 }
+

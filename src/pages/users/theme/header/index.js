@@ -1,8 +1,49 @@
-import { memo } from "react";
+import { memo, useState } from "react";
 import "./style.scss";
 import { AiOutlineFacebook, AiOutlineInstagram, AiOutlineGithub, AiOutlineMail } from "react-icons/ai";
-
+import { ROUTERS } from "utils/router";
+import { Link } from "react-router-dom";
 const Header = () => {
+    const [menus, setMenus] = useState([
+        {
+            name: "Trang chủ",
+            path: ROUTERS.USER.HOME,
+        },
+        {
+            name: "Bài Học",
+            path: ROUTERS.USER.LEARN,
+        },
+        {
+            name: "Mục Lục",
+            path: ROUTERS.USER.TABLE,
+            isShowSubmenu: false,
+            child: [
+                {
+                
+                        name: "I.",
+                        path: "",
+                    
+                },
+                {
+                    
+                        name: "II.",
+                        path: "",
+                    
+                },
+                {
+                    
+                        name: "III.",
+                        path: "",
+                    
+                },
+            ],
+            
+        },
+        {
+            name: "About",
+            path: ROUTERS.USER.ABOUT,
+        },
+    ]);
 
     const handleCopyEmail = () => {
         const email = 'hovietanh147@gmail.com';
@@ -51,11 +92,29 @@ const Header = () => {
                 </div>
             </div>
         </div>
+        <div className="container">
         <div className="row">
             <div className="col-lg-3">
-            LOGO
+                <div className="header-logo">
+                    <h1>tên nhóm</h1>
+                </div>
+            </div>
+            <div className="col-xl-6">
+                <nav className="header-menu">
+                    <ul>  
+                        {
+                            menus?.map((menu, menuKey) => (
+                            <li key={menuKey} className={menuKey === 0 ? "active" : ""}>
+                                
+                                <Link to={menu?.path}>{menu?.name}</Link>
+                                
+                            </li>
+                            ))}
+                    </ul>
+                </nav>
             </div>
         </div>
+    </div>
 
     </>
     );

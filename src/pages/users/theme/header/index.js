@@ -80,7 +80,7 @@ const Header = () => {
                                     <AiOutlineGithub />
                                 </a>
                             </li>
-                            <span>Support</span>
+                            <span>Hỗ Trợ</span>
                         </ul>
                     </div>
                 </div>

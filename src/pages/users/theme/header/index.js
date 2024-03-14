@@ -1,6 +1,6 @@
 import { memo, useState } from "react";
 import "./style.scss";
-import { AiOutlineFacebook, AiOutlineInstagram, AiOutlinePhone, AiOutlineGithub, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineFacebook, AiOutlineInstagram, AiFillMail, AiOutlineGithub, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { ROUTERS } from "utils/router";
 import { Link } from "react-router-dom";
 const Header = () => {
@@ -162,11 +162,22 @@ const Header = () => {
                         </div>
                         <div className="hero-search-phone">
                             <div className="hero-search-phone-icon">
-                                <AiOutlinePhone/>
+                                <AiFillMail/>
                             </div>
                             <div className="hero-search-phone-text">
-                                <p>15618919119</p>
+                                <p>phatpx@hcmute.edu.vn</p>
+                                <span>thắc mắc bài học thì cứ nhắn</span>
                             </div>
+                        </div>
+                     </div>
+                     <div className="hero-item">
+                        <div className="hero-text">
+                            <span>Chủ Đề</span>
+                            <h2>QPAN<br />
+                            NHỮNG VẤN ĐỀ CƠ BẢN VỀ BẢO VỆ AN NINH QUỐC GIA I</h2>
+                            <p>VÀ GIỮ GÌN TRẬT TỰ, AN TOÀN XÃ HỘ</p>
+                            <Link to="" className="primary-btn">
+                            </Link>
                         </div>
                      </div>
             </div>

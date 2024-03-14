@@ -113,3 +113,110 @@
 
 }
 
+.hero-categories{
+    position: relative;
+    
+
+    .hero-categories-all {
+    background: map.get($theme-colors, "main");
+    padding: 15px 25px 15px 40px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 700;
+    color: white;
+
+    svg,
+    span {
+        font-size: 16px;
+        margin-right: 5px;
+    }
+
+    svg {
+        font-size:20px;
+        font-weight: bold;
+    }
+}
+    ul {
+        border: 1px solid #ebebeb;
+        opacity: 1;
+        position: absolute;
+        width: 99%;
+        background: #ffffff;
+        transition: all 0.2;
+
+        li{
+            list-style: none;
+
+            a {
+                text-decoration: none;
+                background-color: transparent;
+                font-size: 16px;
+                color: map.get($theme-colors, "normal-text");
+                line-height: 39px;
+                display:block;
+                padding-left: 10px;
+            }
+
+            a:hover {
+                background: #f7ffff;
+
+                a {
+                    color:map.get($theme-colors, "main");
+
+                }
+            }
+        }
+
+        &.hidden {
+            opacity: 0;
+        }
+
+    }
+
+   
+}
+.hero-search-container {
+    padding-left: 15px;
+    
+    .hero-search-form {
+        width: 610px;
+        height: 50px;
+        float: left;
+
+        form {
+            display: flex;
+            align-items: center;
+        }
+        
+        input {
+            border: none;
+            height: 48px;
+            font-size: 16px;
+            color: #b2b2b2;
+            padding-left: 20px;
+            border: 1px solid #ebebeb;
+            width: 70%;
+
+            :focus {
+                outline: none;
+                border: none;
+            }
+        }
+    
+        button {
+            font-size: 14px;
+            color: whitesmoke;
+            font-weight:800;
+            text-transform: uppercase;
+            display: inline-block;
+            padding: 16px 30px 17px;
+            background: map.get($theme-colors, "main");
+            border: none;
+            height:100%;
+        }
+    }
+
+    
+}
+

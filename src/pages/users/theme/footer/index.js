@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer">
         <div className="container">
             <div className="row">
-                <div className="col-lg-3">
+                <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                     <div className="footer-about">
                         <h1 className="footer-about-logo">
                             Tiểu Đội 9
@@ -19,7 +19,7 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="col-lg-6">
+                <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                     <div className="footer-widget">
                         <h6>Nguồn</h6>
                         <ul>

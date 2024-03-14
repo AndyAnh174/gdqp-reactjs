@@ -1,10 +1,11 @@
 import { memo, useState } from "react";
 import "./style.scss";
-import { AiOutlineFacebook, AiOutlineInstagram, AiOutlineGithub, AiOutlineMail } from "react-icons/ai";
+import { AiOutlineFacebook, AiOutlineInstagram, AiOutlinePhone, AiOutlineGithub, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { ROUTERS } from "utils/router";
 import { Link } from "react-router-dom";
 const Header = () => {
-    const [menus, setMenus] = useState([
+    const [isShowCategories, setShowCategories] = useState(true);
+    const [menus] = useState([
         {
             name: "Trang chủ",
             path: ROUTERS.USER.HOME,
@@ -126,7 +127,51 @@ const Header = () => {
             </div>
         </div>
     </div>
-
+    <div className="container">
+        <div className="row hero-categories-container">
+            <div className="col-lg-3 hero-categories">
+                <div className="hero-categories-all" onClick={() => setShowCategories(!isShowCategories)}>
+                     <AiOutlineMenu />
+                     Danh sách sản phẩm
+                     </div>
+                     {
+                        isShowCategories  && (  
+                        <ul className={isShowCategories ? "" : "hidden"}>
+                            <li>
+                                <Link to="#">phần 1</Link>
+                            </li>
+                            <li>
+                                <Link to="#">phần 2</Link>
+                            </li>
+                            <li>
+                                <Link to="#">phần 3</Link>
+                            </li>
+                        </ul>
+                        )
+                     }
+              
+                    
+            </div>
+            <div className="col-lg-9 hero-search-container">
+                     <div className="herro_search">
+                        <div className="hero-search-form">
+                            <form>
+                                <input type="text" name="" value="" placeholder="bạn muốn tìm ?"/>
+                                <button type="submit"> tìm kiếm</button>
+                            </form>
+                        </div>
+                        <div className="hero-search-phone">
+                            <div className="hero-search-phone-icon">
+                                <AiOutlinePhone/>
+                            </div>
+                            <div className="hero-search-phone-text">
+                                <p>15618919119</p>
+                            </div>
+                        </div>
+                     </div>
+            </div>
+        </div>
+    </div>
     </>
     );
 };

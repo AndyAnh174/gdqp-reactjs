@@ -2,6 +2,9 @@
 @import "style/pages/theme";
 
 .footer {
+    background: rgba(68, 130, 5, 0.5);
+    padding-top: 70px;
+    padding-bottom: 0;
     .footer-about {
         margin-bottom: 30px;
 
@@ -10,7 +13,6 @@
             display: inline-block;
 
         }
-    
         ul li {
             font-size: 16px;
             color: map.get($theme-colors, "normal-text");
@@ -18,5 +20,30 @@
             list-style: none;
         }
 
+    }
+    .footer-widget {
+        margin-bottom: 30px;
+        overflow: hidden;
+        h6 {  
+            color: map.get($theme-colors, "normal-text");
+            margin-bottom: 10px;
+            font-size: 16px;
+            font-weight: 1000;
+        }
+        ul {
+            float: left;
+            width: 50%;
+
+            li {
+                list-style: none;
+
+                a {
+                    color: map.get($theme-colors, "normal-text");
+                    font-size: 14px;
+                    line-height: 32px;
+                    text-decoration: none;
+                }
+            }
+        }
     }
 }

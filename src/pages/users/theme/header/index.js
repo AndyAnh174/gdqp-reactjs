@@ -172,12 +172,12 @@ const Header = () => {
                      </div>
                      <div className="hero-item">
                         <div className="hero-text">
-                            <span>Chủ Đề</span>
+                           {/*  <span>Chủ Đề</span>
                             <h2>QPAN<br />
                             NHỮNG VẤN ĐỀ CƠ BẢN VỀ BẢO VỆ AN NINH QUỐC GIA I</h2>
                             <p>VÀ GIỮ GÌN TRẬT TỰ, AN TOÀN XÃ HỘ</p>
                             <Link to="" className="primary-btn">
-                            </Link>
+                            </Link> */}
                         </div>
                      </div>
             </div>

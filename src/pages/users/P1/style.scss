@@ -1,0 +1,11 @@
+@use "sass:map";
+@import "style/pages/all";
+
+.pdf-custom {
+    display: flex;
+    text-align: center;
+    background-position: top center;
+    width: 1000px;
+    height: 1000px;
+    margin-left: 25%;
+}

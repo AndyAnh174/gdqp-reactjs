@@ -3,6 +3,10 @@ import HomePage from "./pages/users/homePage";
 import ProfilePage from "./pages/users/proflePage";
 import { ROUTERS } from "./utils/router";
 import MasterLayout from "./pages/users/theme/masterLayout";
+import Learn from "./pages/users/Learn";
+import P1 from "./pages/users/P1";
+import P2 from "./pages/users/P2";
+import Table from "./pages/users/Table";
 
 const renderUserRouter = () => {
     const userRouters = [
@@ -13,7 +17,23 @@ const renderUserRouter = () => {
         {
             path: ROUTERS.USER.PROFILE,
             component: <ProfilePage />
-        }
+        },
+        {
+            path: ROUTERS.USER.LEARN,
+            component: <Learn />
+        },
+        {
+            path: ROUTERS.USER.TABLE,
+            component: <Table />
+        },
+        {
+            path: ROUTERS.USER.TABLE1,
+            component: <P1 />
+        },
+        {
+            path: ROUTERS.USER.TABLE2,
+            component: <P2 />
+        },
     ];
 
     return (

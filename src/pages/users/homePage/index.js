@@ -65,7 +65,9 @@ const HomePage = () => {
         </Carousel>
     </div>
     {/* Categories Begin */}
+    
     </>
+    
     );
 };
 

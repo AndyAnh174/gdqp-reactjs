@@ -3,6 +3,7 @@ import "./style.scss";
 import { AiOutlineFacebook, AiOutlineInstagram, AiFillMail, AiOutlineGithub, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { ROUTERS } from "utils/router";
 import { Link } from "react-router-dom";
+import { } from "react-multi-carousel"
 const Header = () => {
     const [isShowCategories, setShowCategories] = useState(true);
     const [menus] = useState([
@@ -21,14 +22,14 @@ const Header = () => {
             child: [
                 {
                 
-                        name: "I.",
-                        path: "",
+                        name: "I. Khái niệm bảo vệ an ninh quốc gia, giữ gìn trật tự an toàn xã hội",
+                        path: ROUTERS.USER.TABLE1,
                     
                 },
                 {
                     
-                        name: "II.",
-                        path: "",
+                        name: "II. Quan điểm của Đảng Cộng sản Việt Nam về bảo đảm an ninh quốc gia, giữ gìn trật tự an toàn xã hội",
+                        path: ROUTERS.USER.TABLE2,
                     
                 },
             ],
@@ -132,7 +133,7 @@ const Header = () => {
             <div className="col-lg-3 hero-categories">
                 <div className="hero-categories-all" onClick={() => setShowCategories(!isShowCategories)}>
                      <AiOutlineMenu />
-                     Danh sách sản phẩm
+                     Danh sách nội dung
                      </div>
                      {
                         isShowCategories  && (  

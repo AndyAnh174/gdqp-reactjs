@@ -151,7 +151,6 @@ const Header = () => {
                         )
                      }
               
-                    
             </div>
             <div className="col-lg-9 hero-search-container">
                      <div className="herro_search">

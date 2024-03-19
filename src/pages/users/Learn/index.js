@@ -5,7 +5,8 @@ import "./style.scss";
 const Learn = () => {
     return (
     <>
-    <iframe className="pdf-custom" src="https://drive.google.com/file/d/17-qL8PzIYFs6o6D0HR7WZ54tcnpc82Vp/preview" allow="autoplay"></iframe>
+    <iframe className="pdf-custom" src="https://drive.google.com/file/d/12I51UZW0EaUlIh7PiNTXrI4tQHmgf2VM/preview" allow="autoplay"></iframe>
+    
     </>
     
     );

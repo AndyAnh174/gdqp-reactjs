@@ -23,9 +23,9 @@ const Learn = () => {
                     </h2>
                     <p className="section-subtile">{message}</p>
                 </div>
-            <div className="row container">
-                <div className="row col-sm-6 col-md-4">
-                    <div className="col-md-6 team-item">
+            <div className=" team-container">
+                <div className="">
+                    <div className=" team-item phuong">
                         <img src={ Phuong } className="team-img" alt="pic" />
                         <h3>Phương</h3>
                         <div className="team-info">
@@ -50,7 +50,7 @@ const Learn = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-6 team-item">
+                    <div className=" team-item loc">
                         <img src={ Loc } className="team-img" alt="pic" />
                         <h3>Lộc (Lộc Shadow)</h3>
                         <div className="team-info">
@@ -75,7 +75,7 @@ const Learn = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-6 team-item">
+                    <div className=" team-item VA">
                         <img src={ VA } className="team-img" alt="pic" />
                         <h3>Việt Anh (Linux)</h3>
                         <div className="team-info">
@@ -100,7 +100,7 @@ const Learn = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-6 team-item">
+                    <div className=" team-item TA">
                         <img src={ TA } className="team-img" alt="pic" />
                         <h3>Tuan Anh (Cuộc sống này thật Nhàn)</h3>
                         <div className="team-info">
@@ -125,7 +125,7 @@ const Learn = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-6 team-item">
+                    <div className=" team-item Minh">
                         <img src={ VuMinh } className="team-img" alt="pic" />
                         <h3>Minh (Vua phá lưới)</h3>
                         <div className="team-info">
@@ -150,7 +150,7 @@ const Learn = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-6 team-item">
+                    <div className=" team-item Khoa">
                         <img src={ Khoa } className="team-img" alt="pic" />
                         <h3>Khoa (Linux)</h3>
                         <div className="team-info">
@@ -174,7 +174,7 @@ const Learn = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-md-6 team-item">
+                    <div className=" team-item DoanThai">
                         <img src={ DoanThai } className="team-img" alt="pic" />
                         <h3>Thái (Linux)</h3>
                         <div className="team-info">

@@ -139,3 +139,36 @@ ul.team-icon li a:hover {
     transition: all 0.25s ease-in-out;
 
 }
+@media screen and (max-width: 768px) {
+    .team-item {
+      width: calc(100% - 20px); /* Team-item sẽ chiếm toàn bộ chiều rộng trên các thiết bị nhỏ */
+    }
+  }
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Các team-item sẽ được căn ra hai bên */
+}
+
+.team-item {
+   /* Điều chỉnh kích thước của team-item */
+  margin-bottom: 20px; /* Điều chỉnh khoảng cách giữa các team-item */
+  box-sizing: border-box; /* Đảm bảo kích thước tính cả padding và border */
+}
+
+.VA {
+    float:left;
+}
+.TA {
+    float:right;
+}
+.Minh {
+    float:left;
+}
+.Khoa {
+    float:right;
+}
+.DoanThai {
+    float:left;
+}

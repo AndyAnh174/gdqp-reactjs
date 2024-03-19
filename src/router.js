@@ -7,6 +7,7 @@ import Learn from "./pages/users/Learn";
 import P1 from "./pages/users/P1";
 import P2 from "./pages/users/P2";
 import Table from "./pages/users/Table";
+import About from "./pages/users/About";
 
 const renderUserRouter = () => {
     const userRouters = [
@@ -33,6 +34,10 @@ const renderUserRouter = () => {
         {
             path: ROUTERS.USER.TABLE2,
             component: <P2 />
+        },
+        {
+            path: ROUTERS.USER.ABOUT,
+            component: <About />
         },
     ];
 

@@ -1,0 +1,50 @@
+@use "sass:map";
+@import "style/pages/all";
+
+.container-categories-slider {
+    max-width: 1200px !important;
+    margin-top: 30px !important;
+
+    .categories-slider {
+        .categories-slider-item {
+            height: 300px;
+            position: relative;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top center;
+            border-radius: 5px;
+
+            p {
+                position: absolute;
+                left: 50%;
+                bottom: 20px;
+                font-size: 18px;
+                color:map.get($theme-colors, "normal-text");
+                font-weight: 700;
+                text-transform: 2px;
+                padding: 12px 0 10px;
+                width: 270px;
+                cursor: pointer;
+
+            }
+
+            /* &:hover {
+                background: rgb(237 237 237);
+            } */
+        }
+
+        .react-multi-carousel-item:not(:first-child):not(:last-child) {
+            margin-right: 5px;
+            margin-left: 5px;
+        }
+    }
+}
+
+.pdf-custom {
+    display: flex;
+    text-align: center;
+    background-position: top center;
+    width: 1000px;
+    height: 1000px;
+    margin-left: 25%;
+}

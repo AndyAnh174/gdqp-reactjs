@@ -130,7 +130,7 @@ const Header = () => {
         <div className="row">
           <div className="col-lg-3">
             <div className="header-logo">
-              <h1>tên nhóm</h1>
+              <h1>Tiểu Đội 9</h1>
             </div>
           </div>
           <div className="col-xl-6">

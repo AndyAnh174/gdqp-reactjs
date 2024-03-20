@@ -72,7 +72,6 @@ const Learn = () => {
                                 <li><a href="#" className="instagram">
                                     <i className="fa fa-instagram"></i>
                                 </a></li> */}
-                                
                             </ul>
                         </div>
                     </div>

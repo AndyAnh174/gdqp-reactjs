@@ -35,21 +35,21 @@ const Learn = () => {
                             <p>Phạm Xuân Phát</p>
                             <p>Đứng sau toàn bộ Đại đội 28</p>
 
-                            {/* <ul className="team-icon">
-                                <li><a href="#" className="twitter">
+                            <ul className="team-icon">
+                                {/* <li><a href="#" className="twitter">
                                     <i className="fa fa-twitter"></i>
-                                </a></li>
-                                <li><a href="#" className="facebook">
+                                </a></li> */}
+                                <li><a href="https://web.facebook.com/phamxuan.phat" className="facebook">
                                     <i className="fa fa-facebook"></i>
                                 </a></li>
-                                <li><a href="#" className="github">
+                               {/*  <li><a href="#" className="github">
                                     <i className="fa fa-github"></i>
                                 </a></li>
                                 <li><a href="#" className="instagram">
                                     <i className="fa fa-instagram"></i>
-                                </a></li>
+                                </a></li> */}
                                 
-                            </ul> */}
+                            </ul>
                         </div>
                     </div>
                     <div className=" team-item phuong">
@@ -60,18 +60,18 @@ const Learn = () => {
                             <p>Anh Lớn Tiểu Đội 9</p>
 
                             <ul className="team-icon">
-                                <li><a href="#" className="twitter">
+                                {/* <li><a href="#" className="twitter">
                                     <i className="fa fa-twitter"></i>
-                                </a></li>
+                                </a></li> */}
                                 <li><a href="#" className="facebook">
                                     <i className="fa fa-facebook"></i>
                                 </a></li>
-                                <li><a href="#" className="github">
+                                {/* <li><a href="#" className="github">
                                     <i className="fa fa-github"></i>
                                 </a></li>
                                 <li><a href="#" className="instagram">
                                     <i className="fa fa-instagram"></i>
-                                </a></li>
+                                </a></li> */}
                                 
                             </ul>
                         </div>
@@ -85,19 +85,19 @@ const Learn = () => {
                             <p>Nhị ca Tiểu Đội 9</p>
 
                             <ul className="team-icon">
-                                <li><a href="#" className="twitter">
+                                {/* <li><a href="#" className="twitter">
                                     <i className="fa fa-twitter"></i>
-                                </a></li>
+                                </a></li> */}
                                 <li><a href="#" className="facebook">
                                     <i className="fa fa-facebook"></i>
                                 </a></li>
-                                <li><a href="#" className="github">
+                               {/*  <li><a href="#" className="github">
                                     <i className="fa fa-github"></i>
                                 </a></li>
                                 <li><a href="#" className="instagram">
                                     <i className="fa fa-instagram"></i>
                                 </a></li>
-                                
+                                 */}
                             </ul>
                         </div>
                     </div>
@@ -135,19 +135,19 @@ const Learn = () => {
                             <p>mai thêm nội dung sau</p>
 
                             <ul className="team-icon">
-                                <li><a href="https://twitter.com/VietHo41299" className="twitter">
+                              {/*   <li><a href="https://twitter.com/VietHo41299" className="twitter">
                                     <i className="fa fa-twitter"></i>
-                                </a></li>
+                                </a></li> */}
                                 <li><a href="https://www.facebook.com/andy.anh174/" className="facebook">
                                     <i className="fa fa-facebook"></i>
                                 </a></li>
-                                <li><a href="https://github.com/AndyAnh174/" className="github">
+                               {/*  <li><a href="https://github.com/AndyAnh174/" className="github">
                                     <i className="fa fa-github"></i>
                                 </a></li>
                                 <li><a href="https://www.instagram.com/mortal.aa174/" className="instagram">
                                     <i className="fa fa-instagram"></i>
                                 </a></li>
-                                
+                                 */}
                             </ul>
                         </div>
                     </div>
@@ -160,15 +160,15 @@ const Learn = () => {
                             <p>mai thêm nội dung sau</p>
 
                             <ul className="team-icon">
-                                <li><a href="https://twitter.com/VietHo41299" className="twitter">
+                                {/* <li><a href="https://twitter.com/VietHo41299" className="twitter">
                                     <i className="fa fa-twitter"></i>
-                                </a></li>
+                                </a></li> */}
                                 <li><a href="https://www.facebook.com/andy.anh174/" className="facebook">
                                     <i className="fa fa-facebook"></i>
                                 </a></li>
-                                <li><a href="https://github.com/AndyAnh174/" className="github">
+                                {/* <li><a href="https://github.com/AndyAnh174/" className="github">
                                     <i className="fa fa-github"></i>
-                                </a></li>
+                                </a></li> */}
                                 <li><a href="https://www.instagram.com/mortal.aa174/" className="instagram">
                                     <i className="fa fa-instagram"></i>
                                 </a></li>

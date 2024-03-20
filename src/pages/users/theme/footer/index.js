@@ -13,7 +13,7 @@ const Footer = () => {
                             Tiểu Đội 9
                         </h1>
                         <ul>
-                            <li>tên Phạm Xuân Phát</li>
+                            <li>Phạm Xuân Phát</li>
                             <li>Quốc Phòng An Ninh Nhóm 28</li>
                             <li>by: Tiểu Đội 9</li>
                         </ul>

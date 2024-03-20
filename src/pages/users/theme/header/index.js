@@ -18,11 +18,7 @@ const Header = () => {
   const location = useLocation();
 
 
-  const PHAN_HAI = [
-    { content: "1.Bảo vệ an ninh quốc gia" },
-    { content: "2.Giữ gìn trật tự, an toàn xã hội an ninh trật tự xã hội là gì?" },
-
-];
+  const PHAN_HAI = [];
   const PHAN_MOT = [
     { content: "1.Bảo vệ an ninh quốc gia" },
     { content: "2.Giữ gìn trật tự, an toàn xã hội an ninh trật tự xã hội là gì?" },

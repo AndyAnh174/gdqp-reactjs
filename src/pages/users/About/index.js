@@ -9,6 +9,9 @@ import TA from "pages/users/About/img/TA.png";
 import VuMinh from "pages/users/About/img/VuMinh.png";
 import DoanThai from "pages/users/About/img/DoanThai.png";
 import Khoa from "pages/users/About/img/Khoa.png";
+import Toan from "pages/users/About/img/Toan.png";
+import PhamXuanPhat from "pages/users/About/img/PhamXuanPhat.png";
+import Thanh from "pages/users/About/img/Thanh.png";
 const Learn = () => {
     let message =``;
     return (
@@ -25,6 +28,30 @@ const Learn = () => {
                 </div>
             <div className=" team-container">
                 <div className="">
+                <div className=" team-item phamxuanphat">
+                        <img src={ PhamXuanPhat } className="team-img" alt="pic" />
+                        <h3>Thầy Phát (Boss)</h3>
+                        <div className="team-info">
+                            <p>Phạm Xuân Phát</p>
+                            <p>Đứng sau toàn bộ Đại đội 28</p>
+
+                            {/* <ul className="team-icon">
+                                <li><a href="#" className="twitter">
+                                    <i className="fa fa-twitter"></i>
+                                </a></li>
+                                <li><a href="#" className="facebook">
+                                    <i className="fa fa-facebook"></i>
+                                </a></li>
+                                <li><a href="#" className="github">
+                                    <i className="fa fa-github"></i>
+                                </a></li>
+                                <li><a href="#" className="instagram">
+                                    <i className="fa fa-instagram"></i>
+                                </a></li>
+                                
+                            </ul> */}
+                        </div>
+                    </div>
                     <div className=" team-item phuong">
                         <img src={ Phuong } className="team-img" alt="pic" />
                         <h3>Phương</h3>
@@ -198,7 +225,56 @@ const Learn = () => {
                             </ul>
                         </div>
                     </div>
+
+                    <div className=" team-item Toan">
+                        <img src={ Toan } className="team-img" alt="pic" />
+                        <h3>Toàn </h3>
+                        <div className="team-info">
+                            <p>Nguyễn Đức Toàn</p>
+                            <p>mai thêm nội dung sau</p>
+
+                            <ul className="team-icon">
+                                <li><a href="https://twitter.com/VietHo41299" className="twitter">
+                                    <i className="fa fa-twitter"></i>
+                                </a></li>
+                                <li><a href="https://www.facebook.com/andy.anh174/" className="facebook">
+                                    <i className="fa fa-facebook"></i>
+                                </a></li>
+                                <li><a href="https://github.com/AndyAnh174/" className="github">
+                                    <i className="fa fa-github"></i>
+                                </a></li>
+                                <li><a href="https://www.instagram.com/mortal.aa174/" className="instagram">
+                                    <i className="fa fa-instagram"></i>
+                                </a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
                     
+                    <div className=" team-item Thanh">
+                        <img src={ Thanh } className="team-img" alt="pic" />
+                        <h3>Thành (Linux)</h3>
+                        <div className="team-info">
+                            <p>Trương Thanh Thành</p>
+                            <p>mai thêm nội dung sau</p>
+
+                            <ul className="team-icon">
+                                <li><a href="https://twitter.com/VietHo41299" className="twitter">
+                                    <i className="fa fa-twitter"></i>
+                                </a></li>
+                                <li><a href="https://www.facebook.com/andy.anh174/" className="facebook">
+                                    <i className="fa fa-facebook"></i>
+                                </a></li>
+                                <li><a href="https://github.com/AndyAnh174/" className="github">
+                                    <i className="fa fa-github"></i>
+                                </a></li>
+                                <li><a href="https://www.instagram.com/mortal.aa174/" className="instagram">
+                                    <i className="fa fa-instagram"></i>
+                                </a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
             </div>

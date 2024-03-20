@@ -156,19 +156,33 @@ ul.team-icon li a:hover {
   margin-bottom: 20px; /* Điều chỉnh khoảng cách giữa các team-item */
   box-sizing: border-box; /* Đảm bảo kích thước tính cả padding và border */
 }
-
-.VA {
+.phamxuanphat {
     float:left;
+}
+.phuong {
+    float:right;
+}
+.loc {
+    float:left;
+}
+.VA {
+    float:right;
 }
 .TA {
-    float:right;
+    float:left;
 }
 .Minh {
-    float:left;
-}
-.Khoa {
     float:right;
 }
-.DoanThai {
+.Khoa {
     float:left;
+}
+.DoanThai {
+    float:right;
+}
+.Toan {
+    float: left;
+}
+.Thanh {
+    float:right;
 }

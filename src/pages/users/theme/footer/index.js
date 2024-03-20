@@ -13,8 +13,8 @@ const Footer = () => {
                             Tiểu Đội 9
                         </h1>
                         <ul>
-                            <li>tên giáo viên</li>
                             <li>tên Phạm Xuân Phát</li>
+                            <li>Quốc Phòng An Ninh Nhóm 28</li>
                             <li>by: Tiểu Đội 9</li>
                         </ul>
                     </div>
@@ -25,12 +25,12 @@ const Footer = () => {
                         <ul>
                             <li>
                                 <Link to="">
-                                    nguồn 1
+                                    Các nguồn tài liệu khác
                                 </Link>
                             </li>
                             <li>
-                                <Link to="">
-                                nguồn 2
+                                <Link to="https://dangcongsan.vn/">
+                                dangcongsan.vn
                                 </Link>
                             </li>
                             <li>

@@ -151,6 +151,13 @@ ul.team-icon li a:hover {
   justify-content: space-between; /* Các team-item sẽ được căn ra hai bên */
 }
 
+.team-react-router-dom {
+    display: none;
+    flex-grow: ceil($number: 3);
+    margin-bottom: auto;
+    ;
+}
+
 .team-item {
    /* Điều chỉnh kích thước của team-item */
   margin-bottom: 20px; /* Điều chỉnh khoảng cách giữa các team-item */

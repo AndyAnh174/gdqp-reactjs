@@ -6,6 +6,7 @@ import PhamMinhChinh from "assets/users/images/categories/PhamMinhChinh.jpg";
 import VoNguyenGiap from "assets/users/images/categories/VoNguyenGiap.jpg";
 import NguyenPhuTrong from "assets/users/images/categories/NguyenPhuTrong.jpg";
 import VoVanThuong from "assets/users/images/categories/VoVanThuong.jpg";
+import TruongTanSang from "assets/users/images/categories/TruongTanSang.jpg";
 import "./style.scss";
 
 const HomePage = () => {
@@ -55,9 +56,9 @@ const HomePage = () => {
       iframeSrc: "https://dukcq.hatinh.gov.vn/tin-tuc-su-kien/tieu-su-dong-chi-vo-van-thuong-chu-tich-nuoc-cong-hoa-xa-hoi-chu-nghia-viet-nam-948.html",
     },
     {
-      bgimgL: NguyenPhuTrong,
-      name: "Nguyễn Phú Trọng",
-      iframeSrc: "https://baochinhphu.vn/tieu-su-tom-tat-cua-tong-bi-thu-chu-tich-nuoc-nguyen-phu-trong-102246689.htm",
+      bgimgL: TruongTanSang,
+      name: "Trương Tấn Sang",
+      iframeSrc: "https://vpctn.gov.vn/danh-muc-trang-chu/lanh-dao-nha-nuoc/chu-tich-pho-chu-tich-qua-cac-nhiem-ky/ong-truong-tan-sang.html",
     },
   ];
 

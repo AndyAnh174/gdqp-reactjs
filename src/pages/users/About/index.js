@@ -12,6 +12,7 @@ import Khoa from "pages/users/About/img/Khoa.png";
 import Toan from "pages/users/About/img/Toan.png";
 import PhamXuanPhat from "pages/users/About/img/PhamXuanPhat.png";
 import Thanh from "pages/users/About/img/Thanh.png";
+import DinhThai from "pages/users/About/img/DinhThai.png";
 const Learn = () => {
     let message =``;
     return (
@@ -175,6 +176,9 @@ const Learn = () => {
                             </ul>
                         </div>
                     </div>
+                    {/* <div className  ="team-item-checking">
+                        <img src={ check }>
+                    </div> */}
 
                     <div className=" team-item Khoa">
                         <img src={ Khoa } className="team-img" alt="pic" />

@@ -1,4 +1,4 @@
-import { memo, useState, useEffect } from "react";
+import { memo, useState, useEffect, RouterEffect } from "react";
 import "./style.scss";
 import {
   AiOutlineFacebook,
@@ -204,7 +204,7 @@ const Header = () => {
             </div>
             <div className="hero-item">
               <div className="hero-text">
-                {/*  <span>Chủ Đề</span>
+                {/* <span>Chủ Đề</span>
                             <h2>QPAN<br />
                             NHỮNG VẤN ĐỀ CƠ BẢN VỀ BẢO VỆ AN NINH QUỐC GIA I</h2>
                             <p>VÀ GIỮ GÌN TRẬT TỰ, AN TOÀN XÃ HỘ</p>

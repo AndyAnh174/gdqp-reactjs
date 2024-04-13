@@ -3,6 +3,7 @@ $MEDIUM_DEVICES: "MEDIUM_DEVICES";
 $TABLET_DEVICES: "TABLET_DEVICES";
 $WIDE_MOBILE: "WIDE_MOBILE";
 $SMALL_DEVICES: "SMALL_DEVICES";
+$IOS_DEVICES_TABLE: "IOS_DEVICES_TABLE";
 
 @mixin Responsive($canvas) {
     @if ($canvas) == $DESKTOP {
@@ -25,5 +26,13 @@ $SMALL_DEVICES: "SMALL_DEVICES";
         @media only screen and (min-width: 575px) {
             @content;
         }   
+    } @else if ($canvas == $IOS_DEVICES_TABLE) {
+        @media only screen and (min-width: 152px) and (max-width: 476px) {
+            @content;
+        }
+    } @else if ($canvas == $AA_TABLE) {
+        @media only screen and (max-width: 1200px){
+            @content;
+        }
     }
 }

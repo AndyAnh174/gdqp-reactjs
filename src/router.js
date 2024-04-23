@@ -8,6 +8,7 @@ import P1 from "./pages/users/P1";
 import P2 from "./pages/users/P2";
 import Table from "./pages/users/Table";
 import About from "./pages/users/About";
+import Admin from "./pages/users/Admin";
 
 const renderUserRouter = () => {
     const userRouters = [
@@ -38,6 +39,10 @@ const renderUserRouter = () => {
         {
             path: ROUTERS.USER.ABOUT,
             component: <About />
+        },
+        {
+            path: ROUTERS.USER.ADMIN,
+            component: <Admin />
         },
     ];
 

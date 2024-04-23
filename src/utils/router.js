@@ -7,5 +7,6 @@ export const ROUTERS = {
         TABLE1: "phan-I",
         TABLE2: "phan-II",
         ABOUT: "gioi-thieu-thanh-vien",
+        ADMIN: "admin",
     },
 };

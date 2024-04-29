@@ -9,9 +9,25 @@ Linux:
 please download:
 installs NVM (Node Version Manager) (package)
 ### `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
+Update package after install
 ### `sudo apt install update`
+Install Node.js
 ### `sudo apt install node`or `sudo apt install nodejs`
+## Download npm (windows/linux)
+Windows:
+please download [npm](https://www.npmjs.com/)
+Linux:
+please download:
 ### `sudp apt install npm`
+
+## Attention
+After install nodejs and npm, please run the following command to check the version of nodejs and npm
+Check node:
+### `node -v` or `node --version`
+Check npm:
+### `npm -v` or `npm --version`
+Install dependencies (Because GitHub does not save downloaded frameworks from the server)
+### `npm install`
 
 ## Available Scripts
 

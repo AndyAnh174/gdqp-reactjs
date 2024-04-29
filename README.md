@@ -2,6 +2,17 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Download nodejs (windows/linux)
+Windows:
+please download [Node.js](https://nodejs.org/en/)
+Linux:
+please download:
+installs NVM (Node Version Manager) (package)
+### `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
+### `sudo apt install update`
+### `sudo apt install node`or ### `sudo apt install nodejs`
+### `sudp apt install npm`
+
 ## Available Scripts
 
 In the project directory, you can run:

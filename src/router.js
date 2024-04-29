@@ -44,6 +44,10 @@ const renderUserRouter = () => {
             path: ROUTERS.USER.ADMIN,
             component: <Admin />
         },
+        {
+            path: ROUTERS.USER.SETTING,
+            component: <Setting />
+        },
     ];
 
     return (
